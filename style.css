@@ -1,0 +1,56 @@
+/* Shared Styles for Every Page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+nav {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Unique styles using classes */
+.home-intro {
+    color: #2c3e50;
+    font-size: 1.2rem;
+}
+
+.about-text {
+    color: #27ae60;
+    font-style: italic;
+}
+Use code with caution.
+
+2. Update your HTML files
+Add the <link> tag inside the <head> of both files so they can "see" the CSS.
+index.html
+html
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav><a href="about.html">Go to About Page</a></nav>
+    <h1 class="home-intro">Welcome to the Home Page!</h1>
+</body>
